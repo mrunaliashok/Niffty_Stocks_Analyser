@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sb
 
 # Load data
-df = pd.read_csv("../DataSet/Nifty.csv/Stocks_2025.csv")
+df = pd.read_csv("Stocks_2025.csv")
 df = df.drop("Unnamed: 0", axis=1)
 
 # Data preprocessing
